@@ -1,19 +1,19 @@
 assetic:
     bundles: ['AppBundle', 'SymfonyIdAdminBundle', 'FOSUserBundle']
-    node: '/usr/bin/nodejs' #change to your path
-    filters:
-        less:
-            node: /usr/local/bin/node
-            node_paths: [/usr/local/lib/node_modules]
-            apply_to: '\.less$'
-        cssrewrite:
-            apply_to: '\.css$'
-        uglifyjs2:
-            bin: /usr/local/bin/uglifyjs #change to your path
-            apply_to: '\.js$'
-        uglifycss:
-            bin: /usr/local/bin/uglifycss #change to your path
-            apply_to: '\.css$'
+#    node: '/usr/bin/nodejs' #change to your path
+#    filters:
+#        less:
+#            node: /usr/local/bin/node
+#            node_paths: [/usr/local/lib/node_modules]
+#            apply_to: '\.less$'
+#        cssrewrite:
+#            apply_to: '\.css$'
+#        uglifyjs2:
+#            bin: /usr/local/bin/uglifyjs #change to your path
+#            apply_to: '\.js$'
+#        uglifycss:
+#            bin: /usr/local/bin/uglifycss #change to your path
+#            apply_to: '\.css$'
 
 mopa_bootstrap:
     form:
