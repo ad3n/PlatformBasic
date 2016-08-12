@@ -71,7 +71,8 @@ menu:
         user: 'Pengguna'
         home: 'Dashboard'
         profile: 'Profil'
-        idname: 'Id Name'
+        group: 'Group'
+        contact: 'Kontak'
 
 form:
     label:
@@ -87,6 +88,8 @@ form:
 
 entity:
     fields:
+        group: 'Group'
+        phoneNumber: 'No. Telepon'
         name: 'Nama'
         fullName: 'Nama Lengkap'
         avatar: 'Foto Avatar'
