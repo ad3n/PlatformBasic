@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "71756114a1e71eaca8def5fdc2b56e8d",
-    "content-hash": "e56a6b06ff170b3bf02a87a5f2ec703e",
+    "hash": "64c3e96a6b639805cc21cb0e571c2856",
+    "content-hash": "a75ba250959d142513f21e0f2bbf48be",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -2713,16 +2713,16 @@
         },
         {
             "name": "symfonyid/symfonyid-admin-bundle",
-            "version": "1.1",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SymfonyId/SymfonyIdAdminBundle.git",
-                "reference": "798418c2aee7f8cfc28794ee340b2d9a06c45f79"
+                "reference": "c90ba8a117921b318ec4cfb717ebedb58b087b71"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SymfonyId/SymfonyIdAdminBundle/zipball/798418c2aee7f8cfc28794ee340b2d9a06c45f79",
-                "reference": "798418c2aee7f8cfc28794ee340b2d9a06c45f79",
+                "url": "https://api.github.com/repos/SymfonyId/SymfonyIdAdminBundle/zipball/c90ba8a117921b318ec4cfb717ebedb58b087b71",
+                "reference": "c90ba8a117921b318ec4cfb717ebedb58b087b71",
                 "shasum": ""
             },
             "require": {
@@ -2796,7 +2796,7 @@
                 "symfony admin",
                 "symfony3"
             ],
-            "time": "2016-08-12 04:25:20"
+            "time": "2016-08-17 05:52:24"
         },
         {
             "name": "twbs/bootstrap",
@@ -4205,6 +4205,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "symfonyid/symfonyid-admin-bundle": 20,
         "knplabs/knp-paginator-bundle": 20,
         "knplabs/knp-menu-bundle": 20,
         "friendsofsymfony/user-bundle": 20,
