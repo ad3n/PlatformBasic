@@ -25,6 +25,9 @@ class AppKernel extends Kernel
             //User Management
             new FOS\UserBundle\FOSUserBundle(),
 
+            //Form Flow
+            new Craue\FormFlowBundle\CraueFormFlowBundle(),
+
             //Data Initialization
             new Doctrine\Bundle\FixturesBundle\DoctrineFixturesBundle(),
 

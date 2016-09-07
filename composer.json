@@ -47,7 +47,8 @@
         "knplabs/knp-paginator-bundle": "~2.5@dev",
         "knplabs/knp-menu-bundle": "~2.1@dev",
         "friendsofsymfony/user-bundle": "~2.0@dev",
-        "friendsofsymfony/jsrouting-bundle": "~2.0@dev"
+        "friendsofsymfony/jsrouting-bundle": "~2.0@dev",
+        "craue/formflow-bundle": "~3.0@dev"
     },
     "require-dev": {
         "doctrine/doctrine-fixtures-bundle": "~2.0",
